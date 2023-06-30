@@ -387,7 +387,7 @@ uint8_t ST7565_command(uint8_t c) {
     HAL_GPIO_WritePin(cog_port, cog_RS, GPIO_PIN_RESET);               // Following contents are Commands
     HAL_GPIO_WritePin(cog_port, cog_CS, GPIO_PIN_RESET);           // COG Chip selected
 
-	HAL_SPI_TransmitReceive(&hspi2, &c, &ret, 1, 100);
+	HAL_SPI_TransmitReceive(SPI_PORT, &c, &ret, 1, 100);
 
     HAL_GPIO_WritePin(cog_port, cog_CS, GPIO_PIN_SET);           // chip de-selected until further transaction
     HAL_GPIO_WritePin(cog_port, cog_RS, GPIO_PIN_SET);
@@ -399,7 +399,7 @@ uint8_t ST7565_data(uint8_t c) {
     HAL_GPIO_WritePin(cog_port, cog_RS, GPIO_PIN_SET);               // Following contents are Commands
     HAL_GPIO_WritePin(cog_port, cog_CS, GPIO_PIN_RESET);           // COG Chip selected
 
-	HAL_SPI_TransmitReceive(&hspi2, &c, &ret, 1, 100);
+	HAL_SPI_TransmitReceive(SPI_PORT, &c, &ret, 1, 100);
 
     HAL_GPIO_WritePin(cog_port, cog_CS, GPIO_PIN_SET);           // chip de-selected until further transaction
     HAL_GPIO_WritePin(cog_port, cog_RS, GPIO_PIN_RESET);
