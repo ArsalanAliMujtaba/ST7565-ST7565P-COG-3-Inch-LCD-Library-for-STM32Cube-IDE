@@ -48,7 +48,7 @@ STEP # 03:
 
 select the correct spi you are using, I am using spi2 in this example you can select yours in header file with the name:
 
-#define SPI_PORT &hspi2
+#define SPI_PORT hspi2
 
 STEP # 04:
 
