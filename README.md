@@ -4,6 +4,10 @@ ST7565/ST7565P COG 3" LCD Library for STM32Cube IDE. Easy integration, versatile
 
 /*************** NOTE ****************/
 
+facebook page:
+
+https://www.facebook.com/radioactiveengineer
+
 subscribe to my channel:
 
 https://www.youtube.com/@radioactiveengineer
