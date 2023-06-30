@@ -4,6 +4,14 @@ ST7565/ST7565P COG 3" LCD Library for STM32Cube IDE. Easy integration, versatile
 
 /*************** NOTE ****************/
 
+subscribe to my channel:
+
+https://www.youtube.com/@radioactiveengineer
+
+My patreon: 
+
+patreon.com/RadioactiveEngineer
+
 I have poured my personal time and effort into developing this library and extensively testing it with the ST7565/ST7565P controller. To make my content more versatile and appealing, I strive to create engaging tutorials, project showcases, and informative code examples that highlight the unique benefits and features of my library. I believe in the power of visuals, so I incorporate images, diagrams, and videos to enhance the presentation and simplify complex concepts. By sharing my personal journey and experiences, I aim to connect with my audience on a deeper level, showcasing my passion and the challenges I've overcome. I value the input and collaboration of my audience, and I encourage them to provide feedback, suggestions, and ideas to further improve the library. Together, we can build a supportive community where knowledge is shared, and everyone benefits. If you find my content valuable and would like to support my efforts, please consider following my social media profiles, supporting me through my patreon or subscribing to my newsletter. Your support will enable me to continue developing and enhancing the library, ensuring its availability to all who can benefit from it.
 
 /************** Tutorial Starts Here ***************/
