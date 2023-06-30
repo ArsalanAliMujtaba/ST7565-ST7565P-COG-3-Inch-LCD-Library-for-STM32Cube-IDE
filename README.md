@@ -46,11 +46,17 @@ SCL -> PB13
 
 STEP # 03:
 
+select the correct spi you are using, I am using spi2 in this example you can select yours in header file with the name:
+
+#define SPI_PORT &hspi2
+
+STEP # 04:
+
 add this before the loop for initialization :
 
   void ST7565_init(void);
 
-STEP # 04:
+STEP # 05:
 
 Add this to your int main() function to start displaying Strings (REMEMBER TO ADD this function at the end of your display program updateDisplay(); just like I did in the example below):
 
@@ -64,6 +70,6 @@ Add this to your int main() function to start displaying Strings (REMEMBER TO AD
 
 	updateDisplay();
 
-STEP # 05:
+STEP # 06:
 
 ENJOY!!!!!!!!!!!!!
