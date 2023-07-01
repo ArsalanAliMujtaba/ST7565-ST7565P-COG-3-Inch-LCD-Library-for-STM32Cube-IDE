@@ -1,4 +1,8 @@
-// 5x7 LCD font 'flipped' for the ST7565 - public domain
+/*
+email me at: arsalanali.mselep@uetpeshawar.edu.pk
+*/
+
+// 5x7 LCD font 'flipped' for the ST7565
 
 #include <stdint.h>
 #include "ST7565.h"
